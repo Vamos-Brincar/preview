@@ -51,12 +51,22 @@ h1 {
     text-align: center;
 }
 
+
 .buttons-child {
     position: relative;
     z-index: 1;
     margin-top: -200px;
     margin-bottom: 70px;
 }
+.c{
+margin-left: -30px;
+
+}
+.d{
+    margin-left: -45px;
+    
+    }
+
 
 #finger_icon {
     width: 70px;
