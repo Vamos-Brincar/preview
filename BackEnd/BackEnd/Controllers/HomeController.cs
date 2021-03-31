@@ -1,4 +1,4 @@
-﻿using BackEnd.Models;
+﻿using Backend.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BackEnd.Controllers
+namespace Backend.Controllers
 {
     public class HomeController : Controller
     {
