@@ -1,0 +1,1 @@
+//Um Get para que as crianças verem os parceiros
