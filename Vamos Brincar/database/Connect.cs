@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-namespace appsettings.database
+namespace MvcMovie.database
 
 {
     public class Connect : DbContext {
