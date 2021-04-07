@@ -38,3 +38,14 @@ C:\Users\Paulo Barros\Documents\app\Vamos Brincar\obj\Debug\net5.0\ref\MvcMovie.
 C:\Users\Paulo Barros\Documents\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.pdb
 C:\Users\Paulo Barros\Documents\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.genruntimeconfig.cache
 C:\Users\Paulo Barros\Documents\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.csproj.CopyComplete
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.csprojAssemblyReference.cache
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.AssemblyInfoInputs.cache
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.AssemblyInfo.cs
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.csproj.CoreCompileInputs.cache
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.RazorAssemblyInfo.cache
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.RazorAssemblyInfo.cs
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.dll
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\ref\MvcMovie.dll
+C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.pdb
