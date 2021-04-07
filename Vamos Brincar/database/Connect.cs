@@ -3,7 +3,7 @@ namespace appsettings.database
 
 {
     public class Connect : DbContext {
-        public Connect(DbConxtexOptions<Connect> options) : base(options){}
+        public Connect(DbContextOptions<Connect> options) : base(options){}
 
     } 
 }

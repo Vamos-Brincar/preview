@@ -49,3 +49,14 @@ C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.
 C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.dll
 C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\ref\MvcMovie.dll
 C:\Users\Utilizador\source\repos\Vamos-Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.pdb
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.csprojAssemblyReference.cache
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.AssemblyInfoInputs.cache
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.AssemblyInfo.cs
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.csproj.CoreCompileInputs.cache
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.RazorAssemblyInfo.cache
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.RazorAssemblyInfo.cs
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.dll
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\ref\MvcMovie.dll
+C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.pdb
