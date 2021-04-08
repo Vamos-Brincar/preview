@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using appsettings.database;
+using MvcMovie.database;
 using Microsoft.EntityFrameworkCore.5.0.0-alpha.2;
 using Pomelo.EntityFrameworkCore.MySql;
 
