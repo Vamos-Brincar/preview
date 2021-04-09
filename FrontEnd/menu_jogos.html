@@ -18,7 +18,6 @@
         rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <!-- Insert this code before your </body> tag -->
     
     <body id="page-top">
         
@@ -38,7 +37,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                            <img class="img-fluid" src="assets/img/games/reversi.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -47,7 +46,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                            <img class="img-fluid" src="assets/img/games/chess.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -56,7 +55,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                            <img class="img-fluid" src="assets/img/games/checkers.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 4-->
@@ -65,7 +64,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
+                            <img class="img-fluid" src="assets/img/games/game.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 5-->
@@ -74,7 +73,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
+                            <img class="img-fluid" src="assets/img/games/safe.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
@@ -83,7 +82,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
+                            <img class="img-fluid" src="assets/img/games/submarine.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -103,39 +102,33 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Mini Reversi</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="material-icons">sports_esports</i></div>
+                                        <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /> -->
-
-                                   <!-- Play.iDevGames.co.uk Responsive Embed Code for Bitcoin Wallet Simulator -->
-                                    <script>
-                                        window.onload = function() {
-                                            var thegamelink = "https://play.idevgames.co.uk/embed/bitcoin-wallet-simulator";
-                                            var ref = document.referrer;
-                                            var theurl = document.referrer;
-                                            ref = ref.substring(ref.indexOf("://") + 3);
-                                            ref = ref.split("/")[0];
-                                            if(ref == "my-ga.me"){
-                                            theurl = "true"
-                                            } else {
-                                                theurl = "false"
-                                            } 
-                                            document.getElementById("embededGame").src = thegamelink+"/"+theurl+"?url="+window.location.href;
-                                        }
-                                    </script>
-                                    <div style="position: relative;height: 0;overflow: hidden;padding-bottom: 56.25%;">
-                                        <iframe id="embededGame" src="https://play.idevgames.co.uk/embed/bitcoin-wallet-simulator" scrolling="no" seamless="seamless" frameBorder="0" style="position: absolute;top:0;left: 0;width: 100%;height: 100%;">Browser not compatible.</iframe>
-                                    </div>
-                                    <!-- End Embed Code -->
+                                    
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="material-icons">sports_esports</i>
+                                    
+                                    <button id="playgame" class="btn btn-primary">
+                                        <i ></i>
                                         Jogar
                                     </button>
+                                    <!-- Portfolio Modal - Game-->
+                                    <div id="close">
+                                        <div id="gamebox">
+                                            <div class="videoWrapper">
+                                                <iframe
+                                                style="width: 100%; height: 550px; overflow: hidden;"
+                                                src="https://playpager.com/embed/reversi/index.html"
+                                                scrolling="no">
+                                                </iframe>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -148,28 +141,40 @@
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                        <span aria-hidden="true" class="material-icons">close</span>
                     </button>
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Xadrez</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="material-icons">sports_esports</i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="" />
+                                    
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
+                                    
+                                    <button id="playgame" class="btn btn-primary">
+                                        <i ></i>
+                                        Jogar
                                     </button>
+                                    <!-- Portfolio Modal - Game-->
+                                    <div id="close">
+                                        <div id="gamebox">
+                                            <div class="videoWrapper">
+                                                <iframe
+                                                style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"
+                                                src="https://playpager.com/embed/chess/index.html"
+                                                scrolling="no">
+                                                </iframe>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -189,21 +194,33 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Damas</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="material-icons">sports_esports</i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" />
+                                    
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
+                                    
+                                    <button id="playgame" class="btn btn-primary">
+                                        <i ></i>
+                                        Jogar
                                     </button>
+                                    <!-- Portfolio Modal - Game-->
+                                    <div id="close">
+                                        <div id="gamebox">
+                                            <div class="videoWrapper">
+                                                <iframe
+                                                style="width: 100%; height: 550px; overflow: hidden;"
+                                                src="https://playpager.com/embed/checkers/index.html"
+                                                scrolling="no">
+                                                </iframe>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
