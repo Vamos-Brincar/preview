@@ -10416,3 +10416,12 @@ form .row:first-child .floating-label-form-group {
   line-height: 24px;
   font-size: 14px;
 }
+
+/*--------------------------------------------------------------
+# END OF MENU DAS CRIANCAS (INDEX_CRIANCAS)
+--------------------------------------------------------------*/
+
+.title-kids-font{
+  font-family: Mouse Memoirs;
+  font-size: 2rem
+}
