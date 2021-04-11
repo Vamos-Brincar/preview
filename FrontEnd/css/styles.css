@@ -10314,11 +10314,10 @@ form .row:first-child .floating-label-form-group {
 	height: 0;
 }
 .videoWrapper iframe {
-	position: absolute;
-	max-width:560px;
-	max-height:315px;
-	width: 95%;
-	height: 95%;
+	position: fixed;
+
+	width: 100%;
+	height: 100%;
 	left:0;
 	right:0;
 	margin:auto;
