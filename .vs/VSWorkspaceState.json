@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app",
-    "\\app\\app",
-    "\\app\\app\\bin",
-    "\\app\\app\\obj",
-    "\\app\\app\\obj\\Debug",
-    "\\app\\app\\obj\\Release",
     "\\Vamos Brincar",
-    "\\Vamos Brincar\\Controllers",
-    "\\Vamos Brincar\\Models"
+    "\\Vamos Brincar\\database"
   ],
-  "SelectedNode": "\\Vamos Brincar\\Models",
+  "SelectedNode": "\\Vamos Brincar\\MvcMovie.csproj",
   "PreviewInSolutionExplorer": false
 }
