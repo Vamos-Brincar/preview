@@ -20,14 +20,14 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         
-<!--         <style>
+        <style>
             body, html {
             height: 100vh;
             }
 
             .bg {
             /* The image used */
-            background-image: url("assets/img/kids/kids1.jpg");
+            background-color: #FB7819;
 
             /* Full height */
             height: 100vh;
@@ -37,7 +37,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             }
-        </style> -->
+        </style>
     </head>
 
     <body id="page-top">
@@ -49,7 +49,7 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="font-family: Mouse Memoirs;">Contactos</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="font-family: Mouse Memoirs; font-size:4.25rem">Contactos</h2>
                 <div class="divider-custom"></div>
                 <!-- Contact Section Form-->
                 <div class="row">
@@ -58,35 +58,35 @@
                         <form id="contactForm" name="sentMessage" novalidate="novalidate">
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label>
-                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                                    <label>Nome/Organização</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Nome/Organização" required="required" data-validation-required-message="Introduza o seu nome, por favor." />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Email Address</label>
-                                    <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                                    <label>Endereço de Email</label>
+                                    <input class="form-control" id="email" type="email" placeholder="Endereço de Email" required="required" data-validation-required-message="Introduza o seu endereço de email, por favor." />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Phone Number</label>
-                                    <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
+                                    <label>Assunto</label>
+                                    <input class="form-control" id="subject" type="text" placeholder="Assunto" required="required" data-validation-required-message="Diga-nos o assunto da mensagem, por favor." />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Message</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                    <label>Mensagem</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Mensagem" required="required" data-validation-required-message="Introduza a sua mensagem, por favor."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <br />
                             <div id="success"></div>
-                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                            <div class="form-group text-center"><button class="btn btn-secondary btn-xl" id="sendMessageButton" type="submit">Enviar</button></div>
                         </form>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
             
                     <!-- Footer Social Icons-->
                     <div>
-                        <h4 class="text-uppercase mb-4">As nossas redes sociais</h4>
+                        <h4 class="text-uppercase text-darl mb-4">As nossas redes sociais</h4>
                         <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
                         <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
                         <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
