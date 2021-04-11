@@ -10281,6 +10281,11 @@ form .row:first-child .floating-label-form-group {
   color: #fff;
 }
 
+.footer-socials {
+  padding-bottom: 8rem;
+  color: rgb(0, 0, 0);
+}
+
 .copyright {
   background-color: #1a252f;
 }
