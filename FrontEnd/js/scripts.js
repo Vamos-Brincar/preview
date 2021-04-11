@@ -75,9 +75,9 @@
 
     // When the user clicks the button, open the modal 
     btn.onclick = function() {
+        modal.style.display = "block";  
         modal.style.display = "block";
      
-        
     }
 
     var gamebox = document.getElementById("close");
@@ -90,10 +90,7 @@
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
-            
-          
-
-
-
+        }
+    }
   })(jQuery); // End of use strict
   
