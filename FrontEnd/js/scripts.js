@@ -75,7 +75,19 @@
 
     // When the user clicks the button, open the modal 
     btn.onclick = function() {
+<<<<<<< HEAD
+        modal.style.display = "block";  
+=======
         modal.style.display = "block";
+     
+        
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2cd7b5dab399c8f7a5e6a571c2ae68db6cacae1f
+=======
+>>>>>>> 2cd7b5dab399c8f7a5e6a571c2ae68db6cacae1f
+=======
+>>>>>>> 2cd7b5dab399c8f7a5e6a571c2ae68db6cacae1f
     }
 
     var gamebox = document.getElementById("close");
@@ -88,10 +100,21 @@
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         }
     }
+=======
+=======
+>>>>>>> 2cd7b5dab399c8f7a5e6a571c2ae68db6cacae1f
+=======
+>>>>>>> 2cd7b5dab399c8f7a5e6a571c2ae68db6cacae1f
+            
+          
 
 
 
+>>>>>>> 2cd7b5dab399c8f7a5e6a571c2ae68db6cacae1f
   })(jQuery); // End of use strict
   
