@@ -10425,3 +10425,12 @@ form .row:first-child .floating-label-form-group {
   font-family: Mouse Memoirs;
   font-size: 2rem
 }
+
+.bottomcenter{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
