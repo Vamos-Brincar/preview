@@ -18,6 +18,9 @@
         rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- table sorting -->
+        <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
     </head>
     <body id="page-top" scroll="no" style="overflow: hidden">
         
@@ -31,11 +34,11 @@
             <!--  Divider-->
             <div class="divider-custom"></div>
 
-            <table class="table table-hover">
+            <table id="crianca_consultar" class="table table-hover sortable">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Nome</th>
+                    <th scope="col">Designação</th>
                     <th scope="col">Estado</th>
                     <th scope="col">Avaliação</th>
                   </tr>
@@ -60,22 +63,19 @@
                     <td></td>
                   </tr>
                   <tr>
-                    <th scope="row">3</th>
+                    <th scope="row">4</th>
                     <td>Sopa dos Pobres</td>
                     <td>Terminada</td>
                     <td>4.7</td>
                   </tr>
                   <tr>
-                    <th scope="row">3</th>
+                    <th scope="row">5</th>
                     <td>Limpar o mato</td>
                     <td>Agendada</td>
                     <td></td>
                   </tr>
                 </tbody>
               </table>
-
-            </div>
-            
 
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-bottom" id="mainNav">
