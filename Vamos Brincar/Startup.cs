@@ -58,7 +58,7 @@ namespace MvcMovie
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=VamosBrincar}/{action=VamosBrincar}/{id?}");
             });
         }
     }

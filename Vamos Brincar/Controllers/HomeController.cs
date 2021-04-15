@@ -9,16 +9,23 @@ using MvcMovie.Models;
 
 namespace MvcMovie.Controllers
 {
-    public class HomeController : Controller
-    {
-        private readonly ILogger<HomeController> _logger;
+    public class VamosBrincarController : Controller
+    {        private readonly ILogger<VamosBrincarController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public VamosBrincarController(ILogger<VamosBrincarController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult VamosBrincar()
+        {
+            return View();
+        }
+         public IActionResult Patrocinadores()
+        {
+            return View();
+        }
+        public IActionResult Jogos()
         {
             return View();
         }
@@ -27,6 +34,37 @@ namespace MvcMovie.Controllers
         {
             return View();
         }
+        
+          public IActionResult About()
+        {
+            return View();
+        }
+
+        // 
+        // GET: /HelloWorld/Welcome/ 
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        public IActionResult Crianca()
+        {
+            return View();
+        }
+        public IActionResult Instituicao()
+        {
+            return View();
+        }
+          public IActionResult Index_Crianca()
+        {
+            return View();
+        }
+           public IActionResult Avaliar()
+        {
+            return View();
+        }
+    
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

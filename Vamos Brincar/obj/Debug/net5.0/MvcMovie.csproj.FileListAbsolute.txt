@@ -120,8 +120,6 @@ C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\s
 C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.TagHelpers.input.cache
 C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.TagHelpers.output.cache
 C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.RazorCoreGenerate.cache
-C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -254,3 +252,12 @@ C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\Mvc
 C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.Views.pdb
 C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.csproj.CopyComplete
 C:\Users\duart\OneDrive\Documentos\GitHub\app\Vamos Brincar\obj\Debug\net5.0\MvcMovie.genruntimeconfig.cache
+C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\VamosBrincar\About.cshtml.g.cs
+C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\VamosBrincar\Avaliar.cshtml.g.cs
+C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\VamosBrincar\Contact.cshtml.g.cs
+C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\VamosBrincar\Crianca.cshtml.g.cs
+C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\VamosBrincar\Index_Crianca.cshtml.g.cs
+C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\VamosBrincar\Instituicao.cshtml.g.cs
+C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\VamosBrincar\Jogos.cshtml.g.cs
+C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\VamosBrincar\patrocinadores.cshtml.g.cs
+C:\Users\Paulo Barros\Desktop\Vamos Brincar\app\Vamos Brincar\obj\Debug\net5.0\Razor\Views\VamosBrincar\VamosBrincar.cshtml.g.cs
