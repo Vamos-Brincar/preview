@@ -9,7 +9,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MvcMovie.Models
+namespace MvcMovie
 {
     public class Atividade
     {
