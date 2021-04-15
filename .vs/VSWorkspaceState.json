@@ -2,15 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\Vamos Brincar",
-    "\\Vamos Brincar\\bin",
     "\\Vamos Brincar\\Controllers",
     "\\Vamos Brincar\\Controllers\\Crianças",
-    "\\Vamos Brincar\\obj",
-    "\\Vamos Brincar\\Properties",
+    "\\Vamos Brincar\\Controllers\\Instituições",
+    "\\Vamos Brincar\\database",
+    "\\Vamos Brincar\\Models",
     "\\Vamos Brincar\\Views",
-    "\\Vamos Brincar\\Views\\Shared",
-    "\\Vamos Brincar\\Views\\VamosBrincar"
+    "\\Vamos Brincar\\Views\\Home"
   ],
-  "SelectedNode": "\\Vamos Brincar\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\Vamos Brincar",
   "PreviewInSolutionExplorer": false
 }

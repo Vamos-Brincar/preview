@@ -19,8 +19,7 @@ namespace MvcMovie.Controllers
 
         public IActionResult VamosBrincar()
         {
-            return "ola";
-           // return View();
+            return View();
         }
          public IActionResult Patrocinadores()
         {

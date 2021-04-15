@@ -5769,19 +5769,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\duart\\.nuget\\packages\\": {}
+    "C:\\Users\\Paulo Barros\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\duart\\OneDrive\\Documentos\\GitHub\\app\\Vamos Brincar\\MvcMovie.csproj",
+      "projectUniqueName": "C:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "C:\\Users\\duart\\OneDrive\\Documentos\\GitHub\\app\\Vamos Brincar\\MvcMovie.csproj",
-      "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\duart\\OneDrive\\Documentos\\GitHub\\app\\Vamos Brincar\\obj\\",
+      "projectPath": "C:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\MvcMovie.csproj",
+      "packagesPath": "C:\\Users\\Paulo Barros\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Paulo Barros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
