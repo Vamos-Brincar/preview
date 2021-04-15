@@ -3,6 +3,7 @@
     "",
     "\\Vamos Brincar",
     "\\Vamos Brincar\\bin",
+<<<<<<< HEAD
     "\\Vamos Brincar\\Controllers",
     "\\Vamos Brincar\\Controllers\\Crianças",
     "\\Vamos Brincar\\obj",
@@ -12,5 +13,10 @@
     "\\Vamos Brincar\\Views\\VamosBrincar"
   ],
   "SelectedNode": "\\Vamos Brincar\\Controllers\\HomeController.cs",
+=======
+    "\\Vamos Brincar\\obj"
+  ],
+  "SelectedNode": "\\Vamos Brincar",
+>>>>>>> parent of a9b64ae (grwr)
   "PreviewInSolutionExplorer": false
 }
