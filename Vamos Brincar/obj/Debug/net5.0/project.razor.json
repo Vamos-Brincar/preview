@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\MvcMovie.csproj",
+  "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\MvcMovie.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,73 +15619,73 @@
   "RootNamespace": "MvcMovie",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Jogos.cshtml",
-      "TargetPath": "Views\\VamosBrincar\\Jogos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\VamosBrincar.cshtml",
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\VamosBrincar.cshtml",
       "TargetPath": "Views\\VamosBrincar\\VamosBrincar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Avaliar.cshtml",
-      "TargetPath": "Views\\VamosBrincar\\Avaliar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Crianca.cshtml",
-      "TargetPath": "Views\\VamosBrincar\\Crianca.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Index_Crianca.cshtml",
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Index_Crianca.cshtml",
       "TargetPath": "Views\\VamosBrincar\\Index_Crianca.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Contact.cshtml",
-      "TargetPath": "Views\\VamosBrincar\\Contact.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Instituicao.cshtml",
-      "TargetPath": "Views\\VamosBrincar\\Instituicao.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\About.cshtml",
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\About.cshtml",
       "TargetPath": "Views\\VamosBrincar\\About.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Paulo Barros\\Desktop\\Vamos Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Patrocinadores.cshtml",
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Patrocinadores.cshtml",
       "TargetPath": "Views\\VamosBrincar\\Patrocinadores.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Instituicao.cshtml",
+      "TargetPath": "Views\\VamosBrincar\\Instituicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Avaliar.cshtml",
+      "TargetPath": "Views\\VamosBrincar\\Avaliar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Contact.cshtml",
+      "TargetPath": "Views\\VamosBrincar\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Crianca.cshtml",
+      "TargetPath": "Views\\VamosBrincar\\Crianca.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Utilizador\\source\\repos\\Vamos-Brincar\\app\\Vamos Brincar\\Views\\VamosBrincar\\Jogos.cshtml",
+      "TargetPath": "Views\\VamosBrincar\\Jogos.cshtml",
       "FileKind": "mvc"
     }
   ],
