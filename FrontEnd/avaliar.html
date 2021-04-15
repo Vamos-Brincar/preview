@@ -10,6 +10,7 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons -->
         <script src="https://kit.fontawesome.com/bb103a8609.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
         
@@ -48,22 +49,19 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
-                            <div class="control-group">
-                                    <div class="rating-css" required="required" data-validation-required-message="Não te esqueças da tua avaliação!">
-                                        <div class="star-icon">
-                                        <input type="radio" name="rating1" id="rating1">
-                                        <label for="rating1" class="fa fa-star"></label>
-                                        <input type="radio" name="rating1" id="rating2">
-                                        <label for="rating2" class="fa fa-star"></label>
-                                        <input type="radio" name="rating1" id="rating3">
-                                        <label for="rating3" class="fa fa-star"></label>
-                                        <input type="radio" name="rating1" id="rating4">
-                                        <label for="rating4" class="fa fa-star"></label>
-                                        <input type="radio" name="rating1" id="rating5">
-                                        <label for="rating5" class="fa fa-star"></label>
-                                        </div>
-                                    </div>
+                            <div class="rate">
+                                <input type="radio" id="star5" name="rate" value="5" />
+                                <label for="star5" title="text">5 stars</label>
+                                <input type="radio" id="star4" name="rate" value="4" />
+                                <label for="star4" title="text">4 stars</label>
+                                <input type="radio" id="star3" name="rate" value="3" />
+                                <label for="star3" title="text">3 stars</label>
+                                <input type="radio" id="star2" name="rate" value="2" />
+                                <label for="star2" title="text">2 stars</label>
+                                <input type="radio" id="star1" name="rate" value="1" />
+                                <label for="star1" title="text">1 star</label>
                             </div>
+                            <br>
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                     <label>Deixa um comentário</label>
@@ -71,6 +69,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
+                            
                             <br />
                             <div id="success"></div>
                             <div class="form-group text-center"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Submeter</button></div>
@@ -91,7 +90,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index_crianca.html">Voltar</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Definições</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="settings.html">Definições</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="landing.html">Terminar Sessão</a></li>
                     </ul>
                 </div>
