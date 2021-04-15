@@ -2,8 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\Vamos Brincar",
-    "\\Vamos Brincar\\database"
+    "\\Vamos Brincar\\Views",
+    "\\Vamos Brincar\\Views\\Home",
+    "\\Vamos Brincar\\wwwroot",
+    "\\Vamos Brincar\\wwwroot\\lib",
+    "\\Vamos Brincar\\wwwroot\\lib\\bootstrap",
+    "\\Vamos Brincar\\wwwroot\\lib\\bootstrap\\dist",
+    "\\Vamos Brincar\\wwwroot\\lib\\bootstrap\\dist\\css"
   ],
-  "SelectedNode": "\\Vamos Brincar\\MvcMovie.csproj",
+  "SelectedNode": "\\Vamos Brincar\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
   "PreviewInSolutionExplorer": false
 }
