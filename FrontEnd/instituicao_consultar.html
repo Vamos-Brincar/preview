@@ -38,9 +38,10 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Designação</th>
-                    <th scope="col">Estado</th>
-                    <th scope="col">Avaliação</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Local</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -49,30 +50,35 @@
                     <td>Plantar Batatas</td>
                     <td>Terminada</td>
                     <td>3.8</td>
+                    <td>Terminada</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td>Magusto</td>
                     <td>A decorrer</td>
                     <td></td>
+                    <td>Terminada</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
                     <td>Ajudar os velhinhos</td>
                     <td>Agendada</td>
                     <td></td>
+                    <td>Terminada</td>
                   </tr>
                   <tr>
                     <th scope="row">4</th>
                     <td>Sopa dos Pobres</td>
                     <td>Terminada</td>
                     <td>4.7</td>
+                    <td>Terminada</td>
                   </tr>
                   <tr>
                     <th scope="row">5</th>
                     <td>Limpar o mato</td>
                     <td>Agendada</td>
                     <td></td>
+                    <td>Terminada</td>
                   </tr>
                 </tbody>
               </table>
@@ -112,8 +118,8 @@
                                   <form id="contactForm" name="sentMessage" novalidate="novalidate">
                                       <div class="control-group">
                                           <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                              <label>Designação da Atividade.</label>
-                                              <input class="form-control" id="actvname" type="text" placeholder="Designação da Atividade" required="required" data-validation-required-message="Diz-nos qual o nome da atividade, por favor." />
+                                              <label>Nome da Atividade.</label>
+                                              <input class="form-control" id="actvname" type="text" placeholder="Nome da Atividade" required="required" data-validation-required-message="Diz-nos qual o nome da atividade, por favor." />
                                               <p class="help-block text-danger"></p>
                                           </div>
                                       </div>
@@ -124,10 +130,17 @@
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
+                                    <div class="control-group">
+                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                            <label>Local da Atividade.</label>
+                                            <input class="form-control" id="actvlocal" type="text" placeholder="Local da Atividade" required="required" data-validation-required-message="Diz-nos qual o local da atividade, por favor." />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
                                       <div class="control-group">
                                           <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                              <label>Local da Atividade.</label>
-                                              <textarea class="form-control" id="actvlocal" type="text" rows="5" placeholder="Local da Atividade" required="required" data-validation-required-message="Diz-nos qual o local da atividade, por favor."></textarea>
+                                              <label>Descrição da Atividade.</label>
+                                              <textarea class="form-control" id="actvdesc" type="text" rows="5" placeholder="Descrição da Atividade" required="required" data-validation-required-message="Descreve a atividade, por favor."></textarea>
                                               <p class="help-block text-danger"></p>
                                           </div>
                                       </div>
