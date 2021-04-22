@@ -22,7 +22,7 @@
         <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 
     </head>
-    <body id="page-top" scroll="no" style="overflow: hidden">
+    <body id="page-top" >
         
         <div class="container">
             <!--  Divider-->
@@ -38,9 +38,10 @@
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Designação</th>
-                    <th scope="col">Estado</th>
-                    <th scope="col">Avaliação</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Local</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -49,38 +50,115 @@
                     <td>Plantar Batatas</td>
                     <td>Terminada</td>
                     <td>3.8</td>
+                    <td>Terminada</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td>Magusto</td>
                     <td>A decorrer</td>
                     <td></td>
+                    <td>Terminada</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
                     <td>Ajudar os velhinhos</td>
                     <td>Agendada</td>
                     <td></td>
+                    <td>Terminada</td>
                   </tr>
                   <tr>
                     <th scope="row">4</th>
                     <td>Sopa dos Pobres</td>
                     <td>Terminada</td>
                     <td>4.7</td>
+                    <td>Terminada</td>
                   </tr>
                   <tr>
                     <th scope="row">5</th>
                     <td>Limpar o mato</td>
                     <td>Agendada</td>
                     <td></td>
+                    <td>Terminada</td>
                   </tr>
                 </tbody>
               </table>
 
+              <!-- Sponsor 0-->
+              <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-25 w-75">
+                        <div class="portfolio-item-caption-content text-center text-white"><a> ADICIONAR PARCEIRO</a></div>
+                    </div>
+                    <img class="img-fluid justify-content-center" id="plus" src="assets/img/games/addnew.png" alt="" />
+                </div>
+                </div>
+              </div>
+              
+              <!-- Sponsor Modal 0-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="portfolioModal0Label" aria-hidden="true">
+          <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                  <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" class="material-icons">close</span>
+                  </button>
+                  <div class="modal-body text-center">
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <!-- Sponsor Modal - Title-->
+                                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal0Label">Adicionar Atividade</h2>
+                                  <!-- Icon Divider-->
+                                  <div class="divider-custom">
+                                      <div class="divider-custom-line"></div>
+                                      <div class="divider-custom-icon"><i class="material-icons">dashboard_customize</i></div>
+                                      <div class="divider-custom-line"></div>
+                                  </div>
+                                  
+                                  <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                                      <div class="control-group">
+                                          <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                              <label>Nome da Atividade.</label>
+                                              <input class="form-control" id="actvname" type="text" placeholder="Nome da Atividade" required="required" data-validation-required-message="Diz-nos qual o nome da atividade, por favor." />
+                                              <p class="help-block text-danger"></p>
+                                          </div>
+                                      </div>
+                                      <div class="control-group">
+                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                            <label>Data da Atividade.</label>
+                                            <input class="form-control" id="actvdate" type="datetime-local" placeholder="Data da Atividade" required="required" data-validation-required-message="Diz-nos qual a data da atividade, por favor." />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                            <label>Local da Atividade.</label>
+                                            <input class="form-control" id="actvlocal" type="text" placeholder="Local da Atividade" required="required" data-validation-required-message="Diz-nos qual o local da atividade, por favor." />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                      <div class="control-group">
+                                          <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                              <label>Descrição da Atividade.</label>
+                                              <textarea class="form-control" id="actvdesc" type="text" rows="5" placeholder="Descrição da Atividade" required="required" data-validation-required-message="Descreve a atividade, por favor."></textarea>
+                                              <p class="help-block text-danger"></p>
+                                          </div>
+                                      </div>
+                                      <br />
+                                      <div id="success"></div>
+                                      <div class="form-group text-center"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Submeter</button></div>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-bottom" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="index_crianca.html"> <img class="img-fluid center" style="width: 250px;" src="images/logo-single-line.png" alt="" /></a>
+                <a class="navbar-brand js-scroll-trigger" href="index_instituicao.html"> <img class="img-fluid center" style="width: 250px;" src="images/logo-single-line.png" alt="" /></a>
                 <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
